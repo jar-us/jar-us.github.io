@@ -36,14 +36,23 @@
 		}
 
 		.container {
+			display: flex;
 			max-width: 800px;
 			margin: 20px auto;
 			padding: 0 20px;
 			box-sizing: border-box;
 		}
 
+		.sidebar {
+			background-color: #f2f2f2;
+			padding: 20px;
+			width: 25%;
+			box-sizing: border-box;
+		}
+
 		.content {
-			margin-top: 20px;
+			margin-left: 20px;
+			flex-grow: 1;
 			border: 1px solid #333;
 			padding: 20px;
 			text-align: justify;
@@ -70,6 +79,10 @@
 		<a href="#">Contact</a>
 	</nav>
 	<div class="container">
+		<div class="sidebar">
+			<h3>Sidebar</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac ipsum a nibh egestas eleifend non non sem.</p>
+		</div>
 		<div class="content">
 			<h2>Introduction</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac ipsum a nibh egestas eleifend non non sem. Pellentesque molestie pretium malesuada. Nam eget risus eu magna dignissim pretium. Curabitur eget dolor sit amet orci euismod congue nec vel nunc. Nullam a malesuada est. Praesent ac magna sem. Suspendisse vestibulum, nulla vel convallis ultricies, massa risus bibendum ante, nec bibendum nisi magna quis mauris. Praesent at nunc nulla. Integer ut enim ante. Nulla bibendum ex id justo hendrerit, vel tristique purus ultricies. Donec at quam at lorem euismod hendrerit ac eu tellus.</p>
